@@ -563,10 +563,15 @@ section{
     }
 
     .number{
+       -webkit-width: fit-content;
+       -moz-width: fit-content;
+       -ms-width: fit-content;
+       -o-width: fit-content;
        width: fit-content;
        display: block;
        margin: 0 auto;
     }
+
 }
 
 @media screen and (max-width: 350px){
@@ -581,6 +586,7 @@ section{
     .orderwrap ul{
         margin: initial;
     }
+ 
 }
 
 /* footer */
