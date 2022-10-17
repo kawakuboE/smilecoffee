@@ -57,7 +57,6 @@ section{
     .coffeebeans::before{
         content: url("../images/h1coffeebean.png");
         display: block;
-        vertical-align: middle;
     }
 
     h1{
@@ -564,7 +563,6 @@ section{
 
     .number{
        width: fit-content;
-       display: block;
        margin: 0 auto;
     }
 
