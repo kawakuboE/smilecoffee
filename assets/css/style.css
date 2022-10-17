@@ -507,7 +507,7 @@ section{
 }
 
 .number{
-    display: inline-flex;
+    display: flex;
     align-items: center;
 }
 
@@ -563,10 +563,6 @@ section{
     }
 
     .number{
-       -webkit-width: fit-content;
-       -moz-width: fit-content;
-       -ms-width: fit-content;
-       -o-width: fit-content;
        width: fit-content;
        display: block;
        margin: 0 auto;
